@@ -6,7 +6,7 @@
  *
  * Return: Void
  */
-void _putchar(char* msg)
+void _putchar(char msg)
 {
-	write(1, msg, strlen(msg));
+	write(1, &msg, 1);
 }

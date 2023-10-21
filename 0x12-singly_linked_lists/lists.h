@@ -3,6 +3,6 @@
 #include <unistd.h>
 #include <string.h>
 
-void _putchar(char *msg);
+void _putchar(char msg);
 
 #endif
